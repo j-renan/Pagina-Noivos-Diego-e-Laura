@@ -1,0 +1,96 @@
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+.matCard {
+  margin-top: 25px;
+  max-width: 90%;
+}
+
+.text-box {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  color: #706c68;
+  width: 80%;
+}
+
+.text > h3 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+.text > h2 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.cerimonia > img {
+  width: 40%;
+}
+
+.lista {
+  cursor: pointer;
+}
+
+.cerimonia {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text-box-card {
+  display: grid;
+}
+
+.text-card {
+  color: #706c68;
+}
+
+.text-card > p {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 12px;
+}
+
+.text-card > h2 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 16px;
+}
+
+.mapa {
+  margin-top: 15px;
+}
+
+.mapa > a > img {
+  width: 92%;
+}
+
+@media (min-width: 425px) {
+  .text > h3 {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .text > h2 {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .text-card > p {
+    font-size: 22px;
+  }
+
+  .text-card > h2 {
+    font-size: 42px;
+  }
+}

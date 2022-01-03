@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #BAD9CC; font-size: 16px;}
+
+.mat-menu-panel {
+    background-color: #BAD9CC !important;
+    
+}
+
+.mat-menu-item {
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    color: #706C68 !important;
+}
+
+.mat-menu-item:hover{
+    background: #7DA491 !important;
+}
+
+.wrapper {
+    position: relative;
+    height: 100vh;
+}
+  
+  

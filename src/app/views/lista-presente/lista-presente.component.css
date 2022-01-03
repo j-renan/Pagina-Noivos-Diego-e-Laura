@@ -1,0 +1,44 @@
+.card { 
+    display: flex;
+    justify-content: center;
+}
+
+.matCard {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    max-width: 90%;
+}
+
+.text-box {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    color: #706C68;
+    width: 80%;
+}
+
+.text > h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text > h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+img {
+    width: 90%;  
+}
+
+.lista {
+    cursor: pointer;
+}

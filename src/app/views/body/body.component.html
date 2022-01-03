@@ -1,0 +1,31 @@
+<div class="card">
+  <mat-card class="matCard">
+    <img src="/assets/img/img01.jpg">
+  </mat-card>
+</div>
+
+<div class="card">
+  <mat-card class="cardCountDown">
+    <app-count-down></app-count-down>
+  </mat-card>
+</div>
+
+<div class="text">
+  <h3>Sejam bem-vindos ao nosso site!</h3>
+</div>
+<div class="paragrafo">
+  <p>A melhor forma de compartilhar esse momento com vocês é vivendo juntos esse sonho!</p>
+</div>
+
+<owl-carousel-o [options]="customOptions">
+  <ng-container *ngFor="let slide of slides">
+    <ng-template carouselSlide>
+      <img [src]="slide.src">
+    </ng-template>
+  </ng-container>
+</owl-carousel-o>
+
+<div class="container">
+  <div class="carousel">
+  </div>
+</div>
