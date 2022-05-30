@@ -114,10 +114,7 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "options": {
-            "baseHref": "/diegoelaura/"
-          }
+          "builder": "angular-cli-ghpages:deploy"        
         }
       }
     }

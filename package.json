@@ -8,6 +8,10 @@
     "test": "ng test",
     "lint": "ng lint"
   },
+  "engines": {
+    "node": "16.13.2",
+    "npm": "8.1.2"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~12.2.6",
@@ -20,7 +24,9 @@
     "@angular/platform-browser": "~12.2.6",
     "@angular/platform-browser-dynamic": "~12.2.6",
     "@angular/router": "~12.2.6",
+    "express": "^4.18.1",
     "ngx-owl-carousel-o": "^6.0.0",
+    "path": "^0.12.7",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.1",
     "zone.js": "~0.11.4"
