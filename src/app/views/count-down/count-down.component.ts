@@ -16,7 +16,7 @@ export class CountDownComponent implements OnInit {
     setInterval(
       () => {
         this.getTimeDifference(), 1000
-        this.getWidth()
+        //this.getWidth()
       }
     )
     
@@ -26,14 +26,14 @@ export class CountDownComponent implements OnInit {
 
   }
 
-  getWidth() {    
+  /* getWidth() {    
     let div = document.querySelector<HTMLElement>('.timerTitulo')!;
     let texto = document.querySelector<HTMLElement>('.contagem')!;
     if (div.clientWidth > 450) {
       texto.style.fontSize = '3.5rem';
     } else texto.style.fontSize = '1 rem';
 
-  }
+  } */
 
   public dateNow = new Date();
   public dDay = new Date('Sep 17 2022 21:00:00');

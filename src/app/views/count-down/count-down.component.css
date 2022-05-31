@@ -2,9 +2,10 @@
   display: flex;
   justify-content: center;
   color: #706C68;
+  text-align: center;
 }
 
-.contagem {
+.timerTitulo > h3 {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 14px;
 }
@@ -49,7 +50,7 @@
 }
 
 @media(min-width: 425px) {
-  .contagem {
+  .timerTitulo > h3 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 28px;
   }
