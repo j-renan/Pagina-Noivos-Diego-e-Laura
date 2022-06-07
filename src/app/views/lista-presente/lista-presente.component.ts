@@ -18,7 +18,7 @@ export class ListaPresenteComponent implements OnInit {
   }
 
   toLista() {
-    window.open('https://lista.havan.com.br/Convidado?Codigo=&DataCasamento=2022-09-17&TipoLista=1&Nome=laura+e+diego', '_blank')
+    window.open('https://www.precolandia.com.br/lista-casamento/li-150510', '_blank')
   }
 
 }
